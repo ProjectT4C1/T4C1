@@ -11,11 +11,16 @@ margin:0 auto;
 background-color:#000000;
 }
 .header .header_logo {
-    overflow: hidden;
+    
 }
-.header .header_logo >img {
+.header .header_logo > h1 {
 height:61px;
+font-size:32px;
+font-weight:bold;
+line-height: 50px;
 float:left;
+color: #00676e;
+text-shadow:0px 0px 0 rgb(-16,87,94),1px 1px 0 rgb(-21,82,89),2px 2px 0 rgb(-27,76,83),3px 3px 0 rgb(-33,70,77),4px 4px 0 rgb(-38,65,72),5px 5px 0 rgb(-44,59,66), 6px 6px 0 rgb(-50,53,60),7px 7px 6px rgba(0,0,0,0.55),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
 }
 
 .header .header_banner {
@@ -35,7 +40,7 @@ top:180px;
 width:58px;
 height:58px;
 z-index:2;
-background-image:url( "../img/prev.gif ");
+background-image:url( "../images/prev.gif ");
 }
 
 .header .header_banner >img {
@@ -54,12 +59,12 @@ top:180px;
 width:58px;
 height:58px;
 z-index:2;
-background-image:url( '../img/next.gif ');
+background-image:url( '../images/next.gif ');
 }
 /********************END HEADER********************/
 /********************MAIN********************/
 .main {
-background-image:url( "../img/main.gif ");
+background-image:url( "../images/main.gif ");
 background-repeat:repeat-x;
 }
 

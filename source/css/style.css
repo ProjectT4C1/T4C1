@@ -1,0 +1,132 @@
+.header .header_logo,.header .header_banner,.main .main_menu,.main_widget_and_content,.footer {
+width:1000px;
+margin:0 auto;
+}
+
+.header , .main , .footer{
+    overflow: hidden;
+}
+/********************HEADER********************/
+.header {
+background-color:#000000;
+}
+.header .header_logo {
+    overflow: hidden;
+}
+.header .header_logo >img {
+height:61px;
+float:left;
+}
+
+.header .header_banner {
+clear:both;
+}
+
+.header .header_banner {
+position:relative;
+height: 418px;
+}
+
+.header .header_banner >#arrow_left {
+position:absolute;
+display:block;
+left:0;
+top:180px;
+width:58px;
+height:58px;
+z-index:2;
+background-image:url( "../img/prev.gif ");
+}
+
+.header .header_banner >img {
+position:absolute;
+width:1000px;
+height:418px;
+left:0;
+z-index:1;
+}
+
+.header .header_banner >#arrow_right {
+position:absolute;
+display:block;
+right:0;
+top:180px;
+width:58px;
+height:58px;
+z-index:2;
+background-image:url( '../img/next.gif ');
+}
+/********************END HEADER********************/
+/********************MAIN********************/
+.main {
+background-image:url( "../img/main.gif ");
+background-repeat:repeat-x;
+}
+
+.main .main_menu >ul {
+height:45px;
+}
+
+.main .main_menu >ul >li {
+height:45px;
+float:left;
+}
+
+.main .main_menu >ul >li >a {
+line-height:45px;
+text-decoration:none;
+display:block;
+padding:0 50px;
+}
+.main_widget_and_content{
+	overflow:auto;
+	margin-top:2px;
+}
+.main .main_widget {
+width:250px;
+height:400px;
+float:left;
+background-color:#DCDDDC;
+}
+
+.main .main_content {
+padding-left:50px;
+width:700px;
+height:400px;
+float:left;
+background-color:#466435;
+}
+/********************END MAIN********************/
+/********************FOOTER********************/
+.footer .footer_menu {
+margin-top:5px;
+border-top:dashed 1px #cfcfcf;
+border-bottom:dashed 1px #cfcfcf;
+overflow:hidden;
+}
+
+.footer .footer_menu ul {
+height:45px;
+float:left;
+width:1000px;
+}
+
+.footer .footer_menu >ul >li {
+height:45px;
+float:left;
+}
+
+.footer .footer_menu >ul >li >a {
+line-height:45px;
+text-decoration:none;
+display:block;
+padding:0 50px;
+}
+
+.copyright {
+float:left;
+width:1000px;
+text-align:center;
+line-height:35px;
+}
+/********************END FOOTER********************/

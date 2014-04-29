@@ -13,7 +13,9 @@ $( document ).ready( function(){
 		
 	$('.slider_holder ul').jcarousel({
 		scroll: 1,
-		wrap: 'both',
+		//2014.04.29 DEL START DUC-CNV
+		//wrap: 'both',
+		//2014.04.29 DEL END
 		initCallback: _init_carousel,
 		buttonNextHTML: null,
 		buttonPrevHTML: null
@@ -24,7 +26,7 @@ $( document ).ready( function(){
 	})
 });
 function _init_carousel(carousel) {
-	$('.slider_nav #next').bind('click', function() {
+	$('.slider_nav #next').bind('click', function() {									  
 		carousel.next();
 		return false;
 	});

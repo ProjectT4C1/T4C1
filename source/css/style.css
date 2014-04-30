@@ -183,7 +183,7 @@ margin-top:2px;
 
 .main .main_widget {
 width:250px;
-height:400px;
+height:440px;
 float:left;
 background-color:#DCDDDC;
 }
@@ -191,19 +191,18 @@ background-color:#DCDDDC;
 .main .main_content {
 padding-left:50px;
 width:700px;
-height:400px;
+height:440px;
 float:left;
 background-color:#466435;
 }
 /*2014.29.04 Chieu : start add left menu and calendar*/
 .main_widget .left_menu{
-	margin: 15px;
+	margin: 35px;
 }
 
 .main_widget .left_menu > ul{
 	text-align: center;
-	width: 220px;
-	height: 230px;
+	width: 180px;
 	border: 1px solid;
 	border-radius: 5px;
 	box-shadow: 10px 10px 10px #888888;
@@ -219,11 +218,15 @@ background-color:#466435;
 }
 
 .main_widget .left_menu ul > li{
-	margin: 20px 0 20px 0;
-	width: 220px;
-	height: 22px;
-	line-height: 40px;
+	width: 180px;
+	height: 38.5px;
+	line-height: 38px;
 	border-top: 1px solid;
+}
+
+.main_widget .left_menu ul li:hover{
+	background-color: #ADA9A9;
+	border-radius: 5px;
 }
 
 .main_widget .left_menu ul li a{
@@ -233,7 +236,7 @@ background-color:#466435;
 	color: #000;
 }
 
-.main_widget .left_menu ul li.active a,.main_widget .left_menu ul li a:hover{
+.main_widget .left_menu ul li a:hover{
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: bold;

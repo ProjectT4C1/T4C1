@@ -1,29 +1,25 @@
-.header .header_logo,.header .header_banner,.main .main_menu,.main_widget_and_content,.footer {
-width:1000px;
-margin:0 auto;
+.header .header_logo, .header .header_banner, .main .main_menu, .main_widget_and_content, .footer {
+	width:1000px;
+	margin:0 auto;
 }
-
-.header,.main,.header .header_logo {
-overflow:hidden;
+.header, .main, .header .header_logo {
+	overflow:hidden;
 }
 /********************HEADER********************/
 .header {
-background-color:#000000;
+	background-color:#000000;
 }
-
 .header .header_logo {
 }
-
 .header .header_logo >h1 {
-height:61px;
-font-size:32px;
-font-weight:bold;
-line-height:50px;
-float:left;
-color:#00676e;
-text-shadow:0px 0px 0 rgb(-16,87,94),1px 1px 0 rgb(-21,82,89),2px 2px 0 rgb(-27,76,83),3px 3px 0 rgb(-33,70,77),4px 4px 0 rgb(-38,65,72),5px 5px 0 rgb(-44,59,66),6px 6px 0 rgb(-50,53,60),7px 7px 6px rgba(0,0,0,0.55),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+	height:61px;
+	font-size:32px;
+	font-weight:bold;
+	line-height:50px;
+	float:left;
+	color:#00676e;
+	text-shadow:0px 0px 0 rgb(-16, 87, 94), 1px 1px 0 rgb(-21, 82, 89), 2px 2px 0 rgb(-27, 76, 83), 3px 3px 0 rgb(-33, 70, 77), 4px 4px 0 rgb(-38, 65, 72), 5px 5px 0 rgb(-44, 59, 66), 6px 6px 0 rgb(-50, 53, 60), 7px 7px 6px rgba(0, 0, 0, 0.55), 7px 7px 1px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(0, 0, 0, .2);
 }
-
 /*2014.29.04 UPDATE START DANG : add slideer*/
 /*.header .header_banner {
 clear:both;
@@ -64,151 +60,133 @@ z-index:2;
 background-image:url( '../images/next.gif ');
 }*/
 .header_banner {
-width:980px;
-height:418px;
-position:relative;
+	width:980px;
+	height:418px;
+	position:relative;
 }
-
 .slider_holder {
-width:980px;
-height:418px;
-position:relative;
-overflow:hidden;
+	width:980px;
+	height:418px;
+	position:relative;
+	overflow:hidden;
 }
-
 .slider_holder ul {
-width:980px;
-height:418px;
-position:relative;
-overflow:hidden;
-list-style-type:none;
+	width:980px;
+	height:418px;
+	position:relative;
+	overflow:hidden;
+	list-style-type:none;
 }
-
 .slider_holder ul li {
-width:980px;
-height:418px;
-position:relative;
-overflow:hidden;
-float:left;
-display:inline;
+	width:980px;
+	height:418px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	display:inline;
 }
-
 .slider_nav a {
-position:absolute;
-top:180px;
-font-size:0;
-line-height:0;
-z-index:2;
-width:58px;
-height:58px;
-text-indent:-4000px;
+	position:absolute;
+	top:180px;
+	font-size:0;
+	line-height:0;
+	z-index:2;
+	width:58px;
+	height:58px;
+	text-indent:-4000px;
 }
-
 .slider_nav a#prev {
-background:url(../images/prev.gif);
-left:0;
+	background:url(../images/prev.gif);
+	left:0;
 }
-
 .slider_nav a#next {
-background:url(../images/next.gif);
-right:0;
+	background:url(../images/next.gif);
+	right:0;
 }
 /*2014.29.04 UPDATE END DANG : add slideer*/
 /********************END HEADER********************/
 /********************MAIN********************/
 .main {
-background-image:url( "../images/main.gif ");
-background-repeat:repeat-x;
+	background-image:url( "../images/main.gif ");
+	background-repeat:repeat-x;
 }
-
 .main .main_menu >ul {
-height:45px;
+	height:45px;
 }
-
 .main .main_menu >ul >li {
-height:45px;
-float:left;
-border: 1px solid transparent;
+	height:45px;
+	float:left;
+	border: 1px solid transparent;
 }
-
 .main .main_menu >ul >li >a {
-line-height:45px;
-text-decoration:none;
-display:block;
-padding:0 50px;
-color:#000000;
-font-weight:bold;
+	line-height:45px;
+	text-decoration:none;
+	display:block;
+	padding:0 50px;
+	color:#000000;
+	font-weight:bold;
 }
-
-.main .main_menu >ul >li:hover >a{
- background-color: #ADA9A9;   
- color: #FFFFFF;   
+.main .main_menu >ul >li:hover >a {
+	background-color: #ADA9A9;
+	color: #FFFFFF;
 }
 /*2014.29.04 ADD START DANG : add drop down menu*/
 .main .main_menu >ul >li >ul {
-display:none;
-padding-top: 2px;
+	display:none;
+	padding-top: 2px;
 }
-
 .main .main_menu >ul >li:hover ul {
-display:block;
-position:absolute;
+	display:block;
+	position:absolute;
 }
-
-.main .main_menu >ul >li:hover{
- background-color: #ADA9A9;   
-border: 1px solid #8C8C8C;
+.main .main_menu >ul >li:hover {
+	background-color: #ADA9A9;
+	border: 1px solid #8C8C8C;
 }
-
 .main .main_menu >ul >li >ul >li >a {
-display:block;
-line-height:47px;
-padding:0 53px;
-color:#000000;
-font-weight:bold;
-text-decoration:none;
-background-color: #EFEFEF;
-border: 1px solid #8C8C8C;
+	display:block;
+	line-height:47px;
+	padding:0 53px;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #EFEFEF;
+	border: 1px solid #8C8C8C;
 }
-
 .main .main_menu >ul >li >ul >li >a:hover {
- background-color: #ADA9A9;   
- color: #FFFFFF;
+	background-color: #ADA9A9;
+	color: #FFFFFF;
 }
 /*2014.29.04 ADD END DANG : add drop down menu*/
 .main_widget_and_content {
-overflow:auto;
-margin-top:2px;
+	overflow:auto;
+	margin-top:2px;
 }
-
 .main .main_widget {
-width:250px;
-height:440px;
-float:left;
-background-color:#DCDDDC;
+	width:250px;
+	height:440px;
+	float:left;
+	background-color:#DCDDDC;
 }
-
 .main .main_content {
-padding-left:50px;
-width:700px;
-height:440px;
-float:left;
-background-color:#466435;
+	padding-left:50px;
+	width:700px;
+	height:440px;
+	float:left;
+	background-color:#466435;
 }
 /*2014.29.04 Chieu : start add left menu and calendar*/
-.main_widget .left_menu{
+.main_widget .left_menu {
 	margin: 35px;
 }
-
-.main_widget .left_menu > ul{
+.main_widget .left_menu > ul {
 	text-align: center;
 	width: 180px;
 	border: 1px solid;
 	border-radius: 5px;
 	box-shadow: 10px 10px 10px #888888;
 }
-
-.main_widget .left_menu ul > h2{
+.main_widget .left_menu ul > h2 {
 	text-align: center;
 	font-size: 22px;
 	font-weight: bold;
@@ -216,104 +194,132 @@ background-color:#466435;
 	margin-bottom: 15px;
 	color: #00676e;
 }
-
-.main_widget .left_menu ul > li{
+.main_widget .left_menu ul > li {
 	width: 180px;
 	height: 38.5px;
 	line-height: 38px;
 	border-top: 1px solid;
 }
-
-.main_widget .left_menu ul li:hover{
+.main_widget .left_menu ul li:hover {
 	background-color: #ADA9A9;
 	border-radius: 5px;
 }
-
-.main_widget .left_menu ul li a{
+.main_widget .left_menu ul li a {
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: bold;
 	color: #000;
 }
-
-.main_widget .left_menu ul li a:hover{
+.main_widget .left_menu ul li a:hover {
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: bold;
 	color: #FC0005;
 }
+/*2014.05.01 ADD START DUC-CNV*/
+.main .single_content {
+	width: 960px;
+	height: 440px;
+	background-color: #466435;
+	margin: 0 auto;
+	clear:both;
+}
+.single_content h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	line-height: 30px;
+}
+.single_content .image_wrap {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.single_content .image_wrap .image_main img {
+	width: 250px;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.single_content .image_wrap .image_gallery_parent {
+	overflow: hidden;
+	margin-left: 10px;
+	margin-top:5px;
+}
+.single_content .image_wrap .image_gallery_parent .image_gallery_child {
+	float:left;
+	margin-left:3px;
+}
+.single_content .image_wrap .image_gallery_parent .image_gallery_child img {
+	width:40px;
+	height:25px;
+	border-radius:5px;
+	border: 1px solid black;
+}
+/*2014.05.01 ADD END*/
+
 /*2014.29.04 Chieu : end add left menu and calendar*/
 /********************END MAIN********************/
 /********************FOOTER********************/
 .footer .footer_menu {
-margin-top:5px;
+	margin-top:5px;
 }
-
-.footer .footer_menu > ul {    
-border-top:dashed 1px #cfcfcf;
-border-bottom:dashed 1px #cfcfcf;
-height:45px;
-float:left;
-width:1000px;
-position: relative;
+.footer .footer_menu > ul {
+	border-top:dashed 1px #cfcfcf;
+	border-bottom:dashed 1px #cfcfcf;
+	height:45px;
+	float:left;
+	width:1000px;
+	position: relative;
 }
-
 .footer .footer_menu >ul >li {
-height:45px;
-float:left;
+	height:45px;
+	float:left;
 }
-
-.footer .footer_menu >ul >li:hover >a{
-background-color: #ADA9A9;   
-color: #FFFFFF;
+.footer .footer_menu >ul >li:hover >a {
+	background-color: #ADA9A9;
+	color: #FFFFFF;
 }
-
 .footer .footer_menu >ul >li >a {
-line-height:45px;
-text-decoration:none;
-display:block;
-padding:0 50px;
-font-weight:bold;
-color:#000000;
+	line-height:45px;
+	text-decoration:none;
+	display:block;
+	padding:0 50px;
+	font-weight:bold;
+	color:#000000;
 }
-
 /*2014.29.04 ADD START DANG : add drop up menu*/
 .footer .footer_menu >ul >li >ul {
-display:none;
+	display:none;
 }
-
 .footer .footer_menu >ul >li:hover > ul {
-display:block;
-position:absolute;
-bottom: 100%;
+	display:block;
+	position:absolute;
+	bottom: 100%;
 }
-
-.footer .footer_menu >ul >li:hover{
-background-color: #FFFFFF;
+.footer .footer_menu >ul >li:hover {
+	background-color: #FFFFFF;
 }
-
 .footer .footer_menu >ul >li >ul >li >a {
-display:block;
-line-height:47px;
-padding:0 54px;
-color:#000000;
-font-weight:bold;
-text-decoration:none;
-background-color: #EFEFEF;
-border-top:dashed 1px #cfcfcf;
-border-bottom:dashed 1px #cfcfcf;
+	display:block;
+	line-height:47px;
+	padding:0 54px;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+	background-color: #EFEFEF;
+	border-top:dashed 1px #cfcfcf;
+	border-bottom:dashed 1px #cfcfcf;
 }
-
 .footer .footer_menu >ul >li >ul >li >a:hover {
- background-color: #ADA9A9;   
- color: #FFFFFF;
+	background-color: #ADA9A9;
+	color: #FFFFFF;
 }
 /*2014.29.04 ADD END DANG : add drop up menu*/
 
 .copyright {
-float:left;
-width:1000px;
-text-align:center;
-line-height:35px;
+	float:left;
+	width:1000px;
+	text-align:center;
+	line-height:35px;
 }
 /********************END FOOTER********************/

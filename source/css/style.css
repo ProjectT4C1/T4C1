@@ -247,7 +247,7 @@ background-image:url( '../images/next.gif ');
 	 text-align: center;
 }
 /*2014.05.02 ADD START DUC-CNV*/
-.main_widget .fb_like{
+.main_widget .fb-like{
 	width: 70px;
 	margin: 5px auto;
 }

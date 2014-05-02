@@ -24,6 +24,14 @@ $( document ).ready( function(){
 	$('.tabs a').slide({
 		'slide_selector' : '.tab-content'
 	})
+	//2014.05.02 ADD START DUC-CNV
+	
+	var popupContact = new PopupMaster('#popupContact');
+    $(".button_order").bind('click', function () {											 
+        popupContact.showModal(true);
+    });
+	
+	//2014.05.02 ADD END
 });
 function _init_carousel(carousel) {
 	$('.slider_nav #next').bind('click', function() {									  
@@ -36,3 +44,38 @@ function _init_carousel(carousel) {
 		return false;
 	});
 };
+
+function PopupMaster(element) {
+    var that = this;
+    that.mask = document.getElementById('popupMask');
+    if (that.mask == null) {
+        var mask = document.createElement('div');
+        mask.id = 'popupMask';
+        mask.className = 'full-screen-mask';
+        document.body.appendChild(mask);
+        that.mask = mask;
+    }
+    that.modal = typeof element === 'object' ? element : $(element)
+   
+    // public Method
+    that.showModal = function (flag) {
+        if (flag) {
+            that.modal.show(0);
+            $(that.mask).show();
+        }
+        else {
+            that.modal.hide(0);
+            $(that.mask).hide();
+        }
+    }
+    that.eventHandle = function () {
+        // handle Close event
+        var closeButton = that.modal.find('#dismiss');
+        
+        closeButton.bind('click', function () {
+            // hide modal, mask
+            that.showModal(false);
+        });
+    }
+    that.eventHandle();
+}

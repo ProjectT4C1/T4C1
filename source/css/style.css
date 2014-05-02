@@ -280,7 +280,11 @@ background-image:url( '../images/next.gif ');
 	padding:3px;
 	border:1px solid #000;
 }
-.main_widget_and_content   img {
+.main_widget_and_content .content_hover{
+	padding: 0;
+}  
+
+.content_hover img {
 	width: 400px;
 	height: 300px;
 	margin: 20px 0 20px 0;

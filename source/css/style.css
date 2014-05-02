@@ -203,7 +203,6 @@ background-image:url( '../images/next.gif ');
 }
 .main_widget .left_menu ul li:hover {
 	background-color: #ADA9A9;
-	border-radius: 5px;
 }
 .main_widget .left_menu ul li a {
 	text-decoration: none;
@@ -217,6 +216,37 @@ background-image:url( '../images/next.gif ');
 	font-weight: bold;
 	color: #FC0005;
 }
+/*chieu calendar*/
+.main_widget #calendar {
+	margin-left: 18px;
+}
+.main_widget  .monthPre{
+	 color: gray;
+	 text-align: center;
+}
+.main_widget .monthNow{
+	 color: blue;
+	 text-align: center;
+}
+.main_widget .dayNow{
+	 border: 2px solid black;
+	 color: #FF0000;
+	 text-align: center;
+}
+.main_widget .calendar td{
+	 width: 30px;
+}
+.main_widget .monthNow th{
+	 background-color: #000;
+	 color: #FFF;
+	 text-align: center;
+}
+.main_widget .dayNames{
+	 background: #ADA9A9;
+	 color: #FFFFFF;
+	 text-align: center;
+}
+/*end calendar*/
 /*2014.05.01 ADD START DUC-CNV*/
 .main .single_content {
 	width: 960px;

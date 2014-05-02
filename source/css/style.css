@@ -246,6 +246,12 @@ background-image:url( '../images/next.gif ');
 	 color: #FFFFFF;
 	 text-align: center;
 }
+/*2014.05.02 ADD START DUC-CNV*/
+.main_widget .fb_like{
+	width: 70px;
+	margin: 5px auto;
+}
+/*2014.05.02 ADD END*/
 /*2014/02/05 chieu: end calendar*/
 
 /*2014/02/05 chieu: zoom image hover*/
@@ -292,11 +298,11 @@ background-image:url( '../images/next.gif ');
 /*2014/02/05 chieu: end zoom image hover*/
 
 /*2014.05.01 ADD START DUC-CNV*/
+
 .main .single_content {
 	width: 960px;
 	margin: 0 auto;
 	clear:both;
-	position:relative;
 }
 .single_content h2 {
 	font-size: 20px;
@@ -352,6 +358,7 @@ background-image:url( '../images/next.gif ');
 	text-shadow:3px 3px 0px #ffffff;
 	margin-left:20px;
 	margin-top:40px;
+	cursor:pointer;
 }
 .button_order:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
@@ -453,7 +460,7 @@ background-image:url( '../images/next.gif ');
     padding: 0 10px 20px;
     display: none;
     z-index: 100;
-	left:20%;
+	left:40%;
 }
 .popup-container h2{
 	color:#777777;

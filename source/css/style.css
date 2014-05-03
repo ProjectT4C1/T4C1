@@ -138,7 +138,7 @@ background-image:url( '../images/next.gif ');
 .main .main_menu >ul >li:hover ul {
 	display:block;
 	position:absolute;
-	z-index: 2;
+    z-index: 200;
     width: 173px;
 	margin-left:-1px;
 }
@@ -626,7 +626,7 @@ background-image:url( '../images/next.gif ');
 	display:block;
 	position:absolute;
 	bottom:100%;
-	z-index: 3;
+	z-index: 200;
     width: 171px;
 }
 .footer .footer_menu >ul >li:hover {

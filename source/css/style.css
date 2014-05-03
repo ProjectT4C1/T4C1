@@ -1,8 +1,3 @@
-.wrapper {
-	background-image:url( "../images/main.gif ");
-	background-repeat:repeat-x;
-    background-position: 0 480px ;
-}
 .header .header_logo, .header .header_banner, .main .main_menu, .main_widget_and_content, .footer, .main .main_content_category {
 	width:1000px;
 	margin:0 auto;
@@ -12,7 +7,7 @@
 }
 /********************HEADER********************/
 .header {
-	
+	background-color:#000000;
 }
 .header .header_logo {
 }
@@ -65,25 +60,25 @@ z-index:2;
 background-image:url( '../images/next.gif ');
 }*/
 .header_banner {
-	width:1000px;
+	width:980px;
 	height:418px;
 	position:relative;
 }
 .slider_holder {
-	width:1000px;
+	width:980px;
 	height:418px;
 	position:relative;
 	overflow:hidden;
 }
 .slider_holder ul {
-	width:1000px;
+	width:980px;
 	height:418px;
 	position:relative;
 	overflow:hidden;
 	list-style-type:none;
 }
 .slider_holder ul li {
-	width:1000px;
+	width:980px;
 	height:418px;
 	position:relative;
 	overflow:hidden;
@@ -109,19 +104,21 @@ background-image:url( '../images/next.gif ');
 	right:0;
 }
 /*2014.29.04 UPDATE END DANG : add slideer*/
-.header .header_menu{    
+/********************END HEADER********************/
+/********************MAIN********************/
+.main {
+	background-image:url( "../images/main.gif ");
+	background-repeat:repeat-x;
 }
-.header .header_menu >ul {
+.main .main_menu >ul {
 	height:45px;
-    width: 1000px;
-    margin: 0 auto;
 }
-.header .header_menu >ul >li {
+.main .main_menu >ul >li {
 	height:45px;
 	float:left;
 	border:1px solid transparent;
 }
-.header .header_menu >ul >li >a {
+.main .main_menu >ul >li >a {
 	line-height:45px;
 	text-decoration:none;
 	display:block;
@@ -130,26 +127,26 @@ background-image:url( '../images/next.gif ');
 	font-weight:bold;
 	font-size:18px;
 }
-.header .header_menu >ul >li:hover >a {
+.main .main_menu >ul >li:hover >a {
 	background-color:#ADA9A9;
 	color:#FFFFFF;
 }
 /*2014.29.04 ADD START DANG : add drop down menu*/
-.header .header_menu >ul >li >ul {
+.main .main_menu >ul >li >ul {
 	display:none;
 }
-.header .header_menu >ul >li:hover ul {
+.main .main_menu >ul >li:hover ul {
 	display:block;
 	position:absolute;
     z-index: 200;
     width: 173px;
 	margin-left:-1px;
 }
-.header .header_menu >ul >li:hover {
+.main .main_menu >ul >li:hover {
 	background-color:#ADA9A9;
 	border:1px solid #8C8C8C;
 }
-.header .header_menu >ul >li >ul >li >a {
+.main .main_menu >ul >li >ul >li >a {
 	display:block;
 	line-height:47px;
 	padding:0 53px;
@@ -159,13 +156,11 @@ background-image:url( '../images/next.gif ');
 	background-color:#EFEFEF;
 	border:1px solid #8C8C8C;
 }
-.header .header_menu >ul >li >ul >li >a:hover {
+.main .main_menu >ul >li >ul >li >a:hover {
 	background-color:#ADA9A9;
 	color:#FFFFFF;
 }
 /*2014.29.04 ADD END DANG : add drop down menu*/
-/********************END HEADER********************/
-/********************MAIN********************/
 .main_widget_and_content {
 	overflow:auto;
 	margin-top:2px;
@@ -217,6 +212,12 @@ background-image:url( '../images/next.gif ');
 	font-size: 16px;
 	font-weight: bold;
 	color: #000;
+}
+.main_widget .left_menu ul li a:hover {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	display:block;
 }
 /*2014/02/05 chieu: calendar*/
 .main_widget #calendar {

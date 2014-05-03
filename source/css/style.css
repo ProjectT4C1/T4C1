@@ -218,12 +218,6 @@ background-image:url( '../images/next.gif ');
 	font-weight: bold;
 	color: #000;
 }
-.main_widget .left_menu ul li a:hover {
-	text-decoration: none;
-	font-size: 16px;
-	font-weight: bold;
-	color: #FC0005;
-}
 /*2014/02/05 chieu: calendar*/
 .main_widget #calendar {
 	margin-left: 18px;

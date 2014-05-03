@@ -314,10 +314,12 @@ background-image:url( '../images/next.gif ');
 	margin-left: 10px;
 	margin-top: 10px;
 	overflow:hidden;
+	float:left;
+	width:350px;
 }
 .single_content .image_wrap .image_main img {
-	width: 250px;
-	height: 150px;
+	width: 300px;
+	height: 250px;
 	float:left;
 	border: 1px solid black;
 	border-radius: 5px;
@@ -356,8 +358,8 @@ background-image:url( '../images/next.gif ');
 	text-decoration:none;
 	text-align:center;
 	text-shadow:3px 3px 0px #ffffff;
-	margin-left:20px;
-	margin-top:40px;
+	margin-left:70px;
+	margin-top:10px;
 	cursor:pointer;
 }
 .button_order:hover {
@@ -395,8 +397,8 @@ background-image:url( '../images/next.gif ');
 	display: block;
 }
 .single_content .image_wrap .image_gallery_parent .image_gallery_child img {
-	width:40px;
-	height:25px;
+	width:75px;
+	height:60px;
 	border-radius:5px;
 	border: 1px solid black;
 }
@@ -435,6 +437,8 @@ background-image:url( '../images/next.gif ');
 }
 .single_content .descrip_content{
 	padding: 0 5px 20px;
+	float:left;
+	width:580px;
 }
 
 .full-screen-mask {

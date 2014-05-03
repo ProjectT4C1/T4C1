@@ -30,7 +30,16 @@ $( document ).ready( function(){
     $(".button_order").bind('click', function () {											 
         popupContact.showModal(true);
     });
-	
+	$('#etalage').etalage({
+					thumb_image_width: 300,
+					thumb_image_height: 250,
+					source_image_width: 1200,
+					source_image_height: 600,
+					show_hint: true,
+					click_callback: function(image_anchor, instance_id){
+						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+					}
+				});
 	//2014.05.02 ADD END
 });
 function _init_carousel(carousel) {

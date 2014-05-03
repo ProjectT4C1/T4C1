@@ -2,7 +2,7 @@
 	width:1000px;
 	margin:0 auto;
 }
-.header, .main, .header .header_logo, .main .main_widget_and_content .main_content, .footer {
+.header, .main, .header .header_logo {
 	overflow:hidden;
 }
 /********************HEADER********************/
@@ -138,7 +138,8 @@ background-image:url( '../images/next.gif ');
 .main .main_menu >ul >li:hover ul {
 	display:block;
 	position:absolute;
-	width:170px;
+	z-index: 2;
+    width: 173px;
 	margin-left:-1px;
 }
 .main .main_menu >ul >li:hover {
@@ -591,13 +592,12 @@ background-image:url( '../images/next.gif ');
 	margin-top: 5px;/*2014.05.02 UPD END*/
 }
 .footer .footer_menu {
-	margin-top:5px;
+	margin-top:5px;    
 }
 .footer .footer_menu >ul {
 	border-top:dashed 1px #cfcfcf;
 	border-bottom:dashed 1px #cfcfcf;
 	height:45px;
-	float:left;
 	width:1000px;
 	position:relative;
 }
@@ -626,7 +626,8 @@ background-image:url( '../images/next.gif ');
 	display:block;
 	position:absolute;
 	bottom:100%;
-	width:168px;
+	z-index: 3;
+    width: 171px;
 }
 .footer .footer_menu >ul >li:hover {
 	background-color:#FFFFFF;

@@ -60,12 +60,12 @@ function PopupMaster(element) {
     // public Method
     that.showModal = function (flag) {
         if (flag) {
-            that.modal.show(0);
-            $(that.mask).show();
+            that.modal.fadeIn(500);
+            $(that.mask).fadeIn(500);
         }
         else {
-            that.modal.hide(0);
-            $(that.mask).hide();
+            that.modal.fadeOut(500);
+            $(that.mask).fadeOut(500);
         }
     }
     that.eventHandle = function () {

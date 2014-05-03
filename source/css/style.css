@@ -163,6 +163,7 @@ background-image:url( '../images/next.gif ');
 .main_widget_and_content {
 	overflow:auto;
 	margin-top:2px;
+	clear:both;
 }
 .main .main_widget {
 	width:250px;
@@ -315,8 +316,10 @@ background-image:url( '../images/next.gif ');
 	margin-left: 10px;
 	margin-top: 10px;
 	overflow:hidden;
+}
+.single_content .image_wrap .image_main{
+	width: 350px;
 	float:left;
-	width:350px;
 }
 .single_content .image_wrap .image_main img {
 	width: 300px;
@@ -398,7 +401,7 @@ background-image:url( '../images/next.gif ');
 	display: block;
 }
 .single_content .image_wrap .image_gallery_parent .image_gallery_child img {
-	width:75px;
+	width:60px;
 	height:60px;
 	border-radius:5px;
 	border: 1px solid black;
@@ -452,7 +455,7 @@ background-image:url( '../images/next.gif ');
     background-color: #000;
     opacity: 0.4;
     filter: alpha(opacity=40);
-    z-index: 98;
+    z-index: 999;
 }
 .popup-container {
     overflow-x:hidden;
@@ -464,7 +467,7 @@ background-image:url( '../images/next.gif ');
     border-radius: 5px;
     padding: 0 10px 20px;
     display: none;
-    z-index: 100;
+    z-index: 1000;
 	left:40%;
 }
 .popup-container h2{

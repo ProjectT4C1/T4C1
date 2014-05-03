@@ -199,10 +199,10 @@
                 var w = opts.zoomWidth;
                 var h = opts.zoomHeight;
                 if (opts.zoomWidth == 'auto') {
-                    w = siw;
+                    w = siw + 100;
                 }
                 if (opts.zoomHeight == 'auto') {
-                    h = sih;
+                    h = sih + 100;
                 }
                 //$('#info').text( xPos + ' ' + yPos + ' ' + siw + ' ' + sih );
                 var appendTo = jWin.parent(); // attach to the wrapper			
